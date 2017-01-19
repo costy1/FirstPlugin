@@ -1,0 +1,8 @@
+{
+  "name"              :"FirstPlugin",
+  "description"       :"My first plugin",
+  "namespace"         :"FirstPlugin",
+  "author"            :"Constantin Purcaru",
+  "type"              :"template",
+  "serviceProvider"   :"FirstPlugin\\Providers\\FirstPluginServiceProvider"
+}
