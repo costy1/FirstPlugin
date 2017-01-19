@@ -11,9 +11,17 @@ namespace FirstPlugin\Controllers;
 use Plenty\Plugin\Controller;
 use Plenty\Plugin\Templates\Twig;
 
+/**
+ * Class ContentController
+ * @package FirstPlugin\Controllers
+ */
 class ContentController extends Controller
 {
-    public function showOnScreen(Twig $twig)
+    /**
+     * @param Twig $twig
+     * @return mixed
+     */
+    public function showOnScreen(Twig $twig):string
     {
         return $twig->render('FirstPlugin::content.first');
     }

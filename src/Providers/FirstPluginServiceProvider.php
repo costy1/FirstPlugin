@@ -10,6 +10,10 @@ namespace FirstPlugin\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
+/**
+ * Class FirstPluginServiceProvider
+ * @package FirstPlugin\Providers
+ */
 class FirstPluginServiceProvider extends ServiceProvider
 {
     /**
