@@ -15,7 +15,7 @@ use Plenty\Plugin\Routing\Router;
  * Class FirstPluginRouteServiceProvider
  * @package FirstPlugin\Providers
  */
-class FirstPluginRouteServiceProvider
+class FirstPluginRouteServiceProvider extends RouteServiceProvider
 {
     /**
      * @param Router $router
