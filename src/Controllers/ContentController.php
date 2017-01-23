@@ -19,7 +19,7 @@ class ContentController extends Controller
 {
     /**
      * @param Twig $twig
-     * @return mixed
+     * @return string
      */
     public function showOnScreen(Twig $twig):string
     {
